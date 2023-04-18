@@ -9,8 +9,8 @@ export interface PupilProps {
 export const Pupil = ({ color = 'aeroBlue' }: PupilProps) => {
     return (
         <div className={styles.pupils} data-pupil>
-            <Box color={color} className={styles.pupil} />
             <Box color="charcoalBlack" className={styles.pupil} />
+            <Box color={color} className={styles.pupil} />
         </div>
     );
 };
